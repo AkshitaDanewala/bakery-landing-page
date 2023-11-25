@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+}
+.pg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/665113810/photo/chocolate-cake-on-wooden-plate.jpg?s=612x612&w=0&k=20&c=EuepvTl9D_ECHG196xCVihNjjxkn7zVrREUEAl8YBdU=");
+    /* background-image: url("https://media.istockphoto.com/id/1151963108/photo/chocolate-cake-with-cherries-and-chocolate-cream.jpg?s=612x612&w=0&k=20&c=cWu6GY4t6pud9yvjPiPVJVD4Y7T9bXmE4RzEgoKiNys="); */
+    /* background-image: url("https://media.istockphoto.com/id/1219874996/photo/delicious-chocolate-cake-decorated-with-flowers-prune-chocolate-cake.jpg?s=612x612&w=0&k=20&c=DSScRJe_FFlp8ceiSLiWRuecK1w1Qd9YROh_364Q3cI="); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 0 2vmax;
+}
+nav{
+    height: 10vh;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    font-size: 1.3vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 2vmax;
+    color: white;
+}
+h3{
+    height: 8vh;
+    width: 5vw;
+    border-radius: 3vmax;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB1ZMpLjQ7ZfkJUpMTMIbn10pL0u4w1aVvDmpLdrL8IeCi3cE5QkEGlyFr_AfT1R1ds7s&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pg1-head{
+    height: 30vh;
+    width: 50vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    margin-top: 2vmax;
+   
+}
+.pg1-head > h1{
+    font-size: 3vmax;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pg1-head >p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vmax;
+    margin: 0.3vmax 0;
+    color: white;
+    line-height: 1.6vmax;
+}
+button{
+    padding: 0.7vmax 3vmax;
+    font-size: 1.3vmax;
+    font-weight: bold;
+    border-radius: 0.3vmax;
+    outline: none;
+    border: none;
+    margin: 0.5vmax 0;
+    background-color:white;
+    transition: all ease 1s;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.pg1-content1{
+    height: 80vh;
+    width: 45vw;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 0 10px grey; */
+    display: flex;
+    transform: translate(52vmax ,-1vmax);
+}
+.box{
+    height: 32vh;
+    width: 55vw;
+    /* border: 2px solid black; */
+    background-color: pink;
+border-radius: 2vmax;
+text-align: center;
+}
+h6{
+    font-size: 2vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2vmax;
+}
+#box3 >h6{
+    color: white;
+}
+#box1{
+    transform: translate(5vmax, 0);
+    background-image: url("https://media.istockphoto.com/id/1418581874/photo/chocolate-cupcake-with-white-icing-on-white-background.jpg?s=612x612&w=0&k=20&c=KWkdWo2XvSbcwpsdWpgG8tbY7k14gf0_ARDacPJmHMU=");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box2{
+    transform: translate(7vmax, 0);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRtekPleoYlI7PNs-eDHuKN0kDKQK0bjvB4g&usqp=CAU");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#box3{
+    transform: translate(-16vmax, 13vmax);
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_beCdDEz24vf6ZOMqRLll-UuLXxEuvJxaA&usqp=CAU");
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
